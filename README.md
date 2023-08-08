@@ -15,7 +15,7 @@ O projeto é organizado de forma a facilitar a integração com o Flask, portant
 
 - O arquivo de forms contém todos os formulários utilizados nos templates, em que, utilizando as bibliotecas "wtforms" e "flask_wtf" facilitaram sua criação, validação dos campos, emissão de erros e integração com o framework Flask.
 
-- O arquivo "models.py" contém as classes responsáveis pela criação das tabelas dos banco de dados. Dessa forma, utiliza-se de um banco de dados sqlite, criado a partir do arquivo "criar_banco.py" e com a ajuda da biblioteca SQLALCHEMY.
+- O arquivo "models.py" contém as classes responsáveis pela criação das tabelas do banco de dados. Dessa forma, utiliza-se de um banco de dados PostgreSQL, cujas tabelas foram criadas a partir do arquivo "criar_banco.py" e com a ajuda da biblioteca SQLALCHEMY.
 
 - O arquivo "routes.py" contém todas as rotas do site, bem como, algumas validações e outras funções em python necessárias para que cada rota funcione como deveria.
 

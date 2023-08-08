@@ -7,7 +7,7 @@ Nesse projeto, cria-se um conta, que fica armazenada em um banco de dados, e ao 
 
 ## Organização dos arquivos e observações
 
-O projeto é organizado de forma a facilitar a integração com o Flask, portanto, é criado uma pasta do projeto, onde seu "__init__.py" é responsável por conter todas as configurações necessárias e criação do app. Dentro dessa pasta também temos algumas outras pastas e arquivos.
+O projeto é organizado de forma a facilitar a integração com o Flask, portanto, é criado uma pasta do projeto, onde seu "__init__" é responsável por conter todas as configurações necessárias e criação do app. Dentro dessa pasta também temos algumas outras pastas e arquivos.
 
 - A pasta "static" contém as imagens que foram utilizadas de exemplo na criação e teste do site, bem como a imagem de fundo do site, e o arquivo de estilização CSS.
 

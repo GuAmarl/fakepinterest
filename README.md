@@ -4,6 +4,7 @@
 
 Recriação do site Pinterest e algumas de suas funções, utilizando o framework do Python, Flask, e um pouco de CSS e HTML.
 Nesse projeto, cria-se um conta, que fica armazenada em um banco de dados, e ao fazer login, possui um perfil no site, sendo possível fazer upload de fotos para a plataforma, que ficam visíveis em um feed de imagens de todos os perfis criados. Dessa forma, ao clicar em uma imagem, é possível visitar o perfil de quem fez o upload.
+O app está hospedado em um servidor gratuito do Render, através da url: https://repinterest.onrender.com
 
 ## Organização dos arquivos e observações
 
@@ -15,7 +16,7 @@ O projeto é organizado de forma a facilitar a integração com o Flask, portant
 
 - O arquivo de forms contém todos os formulários utilizados nos templates, em que, utilizando as bibliotecas "wtforms" e "flask_wtf" facilitaram sua criação, validação dos campos, emissão de erros e integração com o framework Flask.
 
-- O arquivo "models.py" contém as classes responsáveis pela criação das tabelas do banco de dados. Dessa forma, utiliza-se de um banco de dados PostgreSQL, cujas tabelas foram criadas a partir do arquivo "criar_banco.py" e com a ajuda da biblioteca SQLALCHEMY.
+- O arquivo "models.py" contém as classes responsáveis pela criação das tabelas do banco de dados. Dessa forma, utiliza-se de um banco de dados PostgreSQL pós deploy e um banco de dados sqlite localmente, cujas tabelas foram criadas a partir do arquivo "criar_banco.py" e com a ajuda da biblioteca SQLALCHEMY.
 
 - O arquivo "routes.py" contém todas as rotas do site, bem como, algumas validações e outras funções em python necessárias para que cada rota funcione como deveria.
 

@@ -1,11 +1,11 @@
-## Recriação do site Pinterest - Python Impressionador
+# Recriação do site Pinterest - Python Impressionador
 
-# Sobre
+## Sobre
 
 Recriação do site Pinterest e algumas de suas funções, utilizando o framework do Python, Flask, e um pouco de CSS e HTML.
 Nesse projeto, cria-se um conta, que fica armazenada em um banco de dados, e ao fazer login, possui um perfil no site, sendo possível fazer upload de fotos para a plataforma, que ficam visíveis em um feed de imagens de todos os perfis criados. Dessa forma, ao clicar em uma imagem, é possível visitar o perfil de quem fez o upload.
 
-# Organização dos arquivos e observações
+## Organização dos arquivos e observações
 
 O projeto é organizado de forma a facilitar a integração com o Flask, portanto, é criado uma pasta do projeto, onde seu "__init__.py" é responsável por conter todas as configurações necessárias e criação do app. Dentro dessa pasta também temos algumas outras pastas e arquivos.
 
